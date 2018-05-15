@@ -34,7 +34,7 @@ public class BDao {
 	};
 
 	public BDao() {
-
+		
 	}
 
 	public void setDataSource(DataSource dataSource) {
@@ -43,24 +43,6 @@ public class BDao {
 
 	public ArrayList<BDto> list() {
 		return (ArrayList<BDto>) jdbcTemplate.query(
-				"select bId, bName, bTitle, bContent, bDate, bHit, bGroup, bStep, bIndent from mvc_board order by bGroup desc, bStep asc",
-				new RowMapper<BDto>() {
-
-					@Override
-					public BDto mapRow(ResultSet rs, int rowNum) throws SQLException {
-						// TODO Auto-generated method stub
-						BDto dto = new BDto();
-						dto.setbId(rs.getInt("bId"));
-						dto.setbName(rs.getString("bName"));
-						dto.setbTitle(rs.getString("bTitle"));
-						dto.setbContent(rs.getString("bContent"));
-						dto.setbDate(rs.getTimestamp("bDate"));
-						dto.setbHit(rs.getInt("bHit"));
-						dto.setbGroup(rs.getInt("bGroup"));
-						dto.setbStep(rs.getInt("bStep"));
-						dto.setbIndent(rs.getInt("bIndent"));
-						return dto;
-					}
-				});
+				"select bId, bName, bTitle, bContent, bDate, bHit, bGroup, bStep, bIndent from mvc_board order by bGroup desc, bStep asc",this.boardContentMapper);
 	}
 }

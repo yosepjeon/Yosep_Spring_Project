@@ -2,14 +2,24 @@ package yosep.com.main.board.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import yosep.com.main.board.command.BCommand;
+
 @Controller
 public class BController {
-
+	
+	BCommand command;
+	
+	public JdbcTemplate template;
+	
+	
 	@RequestMapping("/board/list")
 	public String list(Model model) {
 		System.out.println("list jsp 호출");
