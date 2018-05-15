@@ -85,5 +85,7 @@
 	<classpathentry kind="lib" path="/Users/jeon-yoseb/Documents/workspace-sts-3.9.2.RELEASE/Tobi-master/spring/Vol2-31/lib/org.springframework.web.servlet-3.1.2.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/jeon-yoseb/Documents/workspace-sts-3.9.2.RELEASE/Tobi-master/spring/Vol2-31/lib/slf4j-log4j12-1.6.0.jar"/>
 	<classpathentry kind="lib" path="/Users/jeon-yoseb/Documents/workspace-sts-3.9.2.RELEASE/Tobi-master/spring/Vol2-31/lib/transactions-essentials-all.jar"/>
+	<classpathentry kind="lib" path="/Users/jeon-yoseb/Desktop/ComputerEngineering/웹개발/spring web lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/jeon-yoseb/Desktop/ComputerEngineering/웹개발/spring web lib/commons-pool-1.6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

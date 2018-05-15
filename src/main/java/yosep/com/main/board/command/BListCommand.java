@@ -15,7 +15,7 @@ public class BListCommand implements BCommand{
 	@Override
 	public void execute(Model model) {
 		// TODO Auto-generated method stub
-		ApplicationContext board_context = new GenericXmlApplicationContext("board-context.xml");
+		ApplicationContext board_context = new GenericXmlApplicationContext("/board-context.xml");
 		BDao dao = (BDao) board_context.getBean("bDao",BDao.class);
 		
 		ArrayList<BDto>dtos = dao.list();

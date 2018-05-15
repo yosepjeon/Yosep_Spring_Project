@@ -12,14 +12,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import yosep.com.main.board.command.BCommand;
 import yosep.com.main.board.command.BListCommand;
-import yosep.com.main.board.util.Constant;
 
 @Controller
 public class BController {
 	
 	BCommand command;
 	
-	public JdbcTemplate template;
 	
 	
 	@RequestMapping("/board/list")
