@@ -36,11 +36,11 @@ public class BDao {
 	public BDao() {
 		
 	}
-
+	
 	public void setDataSource(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);
 	}
-
+	
 	public ArrayList<BDto> list() {
 		return (ArrayList<BDto>) jdbcTemplate.query(
 				"select bId, bName, bTitle, bContent, bDate, bHit, bGroup, bStep, bIndent from mvc_board order by bGroup desc, bStep asc",this.boardContentMapper);
