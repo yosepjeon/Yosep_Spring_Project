@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import yosep.com.main.board.command.BCommand;
 import yosep.com.main.board.command.BListCommand;
+import yosep.com.main.board.command.BWriteCommand;
 
 @Controller
 public class BController {
@@ -39,6 +40,9 @@ public class BController {
 	@RequestMapping("/board/write")
 	public String write(HttpServletRequest request, Model model) {
 		System.out.println("write()");
+		model.addAttribute("request",request);
+		command = new BWriteCommand();
+		command.execute(model);
 
 		return "list";
 	}

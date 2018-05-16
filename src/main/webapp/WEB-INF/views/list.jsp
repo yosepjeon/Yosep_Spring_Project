@@ -48,7 +48,7 @@
 			<div class="form-group">
 				<!-- pull-right는 버튼이 가장 오른쪽으로 가도록 하기 위해 작성 -->
 				<div class="pull-right">
-					<a href="boardInsertForm.do"><button type="button"
+					<a href="/main/board/write_view"><button type="button"
 							class="btn btn-default">작성</button></a>
 				</div>
 			</div>

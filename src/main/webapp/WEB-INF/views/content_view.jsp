@@ -15,7 +15,7 @@
 	<!-- <div class="container"> -->
 		<h1>content_view</h1>
 		<table class="table table-hover">
-			<form action="modify" method="post">
+			<form action="/board/modify" method="post">
 				<input type="hidden" name="bId" value="${content_view.bId}">
 				<tr>
 					<td>번호</td>
