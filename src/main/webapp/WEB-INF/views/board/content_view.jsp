@@ -15,8 +15,6 @@
 	<!-- <div class="container"> -->
 		<h1>content_view</h1>
 		<table class="table table-hover">
-			<form action="/board/modify" method="post">
-				<input type="hidden" name="bId" value="${content_view.bId}">
 				<tr>
 					<td>번호</td>
 					<td>${content_view.bId}</td>
@@ -40,12 +38,11 @@
 					<td><textarea rows="10" name="bContent">${content_view.bContent}</textarea></td>
 				</tr>
 				<tr>
-					<td colspan="2"><input type="submit" value="수정">
-						&nbsp;&nbsp; <a href="list">목록보기</a> &nbsp;&nbsp; <a
+					<td colspan="2"><a href="/main/board/modify_view?bId=${content_view.bId}">수정</a>
+						&nbsp;&nbsp; <a href="/main/board/list">목록보기</a> &nbsp;&nbsp; <a
 						href="delete?bId=${content_view.bId}">삭제</a> &nbsp;&nbsp; <a
 						href="reply_view?bId=${content_view.bId}">답변</a></td>
 				</tr>
-			</form>
 		</table>
 	<!-- </div> -->
 
