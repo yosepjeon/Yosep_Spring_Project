@@ -20,7 +20,7 @@
 					<td>${content_view.bId}</td>
 				</tr>
 				<tr>
-					<td>히트</td>
+					<td>조회수</td>
 					<td>${content_view.bHit}</td>
 				</tr>
 				<tr>
@@ -35,7 +35,7 @@
 				</tr>
 				<tr>
 					<td>내용</td>
-					<td><textarea rows="10" name="bContent">${content_view.bContent}</textarea></td>
+					<td><textarea cols="70" rows="15"  name="bContent">${content_view.bContent}</textarea></td>
 				</tr>
 				<tr>
 					<td colspan="2"><a href="/main/board/modify_view?bId=${content_view.bId}">수정</a>
