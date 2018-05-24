@@ -117,7 +117,7 @@ public class BDao {
 					}
 				});
 	}
-	
+
 	public BDto modifyView(String strId) {
 		return this.jdbcTemplate.queryForObject("select * from mvc_board where bId = ?", new Object[] { strId },
 				new RowMapper<BDto>() {
@@ -139,7 +139,50 @@ public class BDao {
 					}
 				});
 	}
-	
+
+	public BDto reply_view(String strId) {
+		return jdbcTemplate.queryForObject("select * from mvc_board where bId = ?", new Object[] { strId },
+				new RowMapper<BDto>() {
+
+					@Override
+					public BDto mapRow(ResultSet rs, int arg1) throws SQLException {
+						// TODO Auto-generated method stub
+						BDto dto = new BDto();
+						dto.setbId(rs.getInt("bId"));
+						dto.setbName(rs.getString("bName"));
+						dto.setbTitle(rs.getString("bTitle"));
+						dto.setbContent(rs.getString("bContent"));
+						dto.setbDate(rs.getTimestamp("bDate"));
+						dto.setbHit(rs.getInt("bHit"));
+						dto.setbGroup(rs.getInt("bGroup"));
+						dto.setbStep(rs.getInt("bStep"));
+						dto.setbIndent(rs.getInt("bIndent"));
+						return dto;
+					}
+				});
+	}
+
+	public void reply(final String bId, final String bName, final String bTitle, final String bContent,
+			final String bGroup, final String bStep, final String bIndent) {
+		jdbcTemplate.update(
+				"insert into mvc_board(bId, bName, bTitle, bContent, bDate, bGroup,bStep,bIndent) values(?,?,?,?,now(),?,?,?)",
+				new PreparedStatementSetter() {
+
+					@Override
+					public void setValues(PreparedStatement ps) throws SQLException {
+						// TODO Auto-generated method stub
+						ps.setString(1, bId);
+						ps.setString(2, bName);
+						ps.setString(3, bTitle);
+						ps.setString(4, bContent);
+						ps.setInt(5, Integer.parseInt(bGroup));
+						ps.setInt(6, Integer.parseInt(bStep) + 1);
+						ps.setInt(7, Integer.parseInt(bIndent) + 1);
+					}
+
+				});
+	}
+
 	private void upHit(final String bId) {
 		jdbcTemplate.update("update mvc_board set bHit = bHit + 1 where bId = ?", new PreparedStatementSetter() {
 
