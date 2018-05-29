@@ -7,7 +7,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class BlogController {
 	@RequestMapping("/blog")
-	public String blog_view(Model model) {
+	public String blog_index_view(Model model) {
 		return "/blog/index";
+	}
+	
+	@RequestMapping("/blog/first")
+	public String blog_first_view(Model model) {
+		return "/blog/start_blog";
+	}
+	
+	@RequestMapping("/blog/signup")
+	public String blog_signup(Model model) {
+		return "/blog/signup";
+	}
+	
+	@RequestMapping("/blog/login")
+	public String blog_login(Model model) {
+		return "/blog/login";
 	}
 }

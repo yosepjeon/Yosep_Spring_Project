@@ -11,11 +11,22 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
+<!-- 이미지 링크 -->
+<link rel="stylesheet"
+	href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="stylesheet"
+	href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="stylesheet"
+	href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<link rel="stylesheet"
+	href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+
 <title>요셉's 자기소개</title>
 
 <!-- Bootstrap core CSS -->
 <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-<link rel="stylesheet" type="test/css"
+<link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/resources/bootstrap-main1/vendor/bootstrap/css/bootstrap.min.css">
 <!-- Custom fonts for this template -->
 <link
@@ -24,14 +35,20 @@
 <link
 	href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
 	rel="stylesheet">
-<link href="${pageContext.request.contextPath}/resources/bootstrap-main1/vendor/font-awesome/css/font-awesome.min.css"
+<link
+	href="${pageContext.request.contextPath}/resources/bootstrap-main1/vendor/font-awesome/css/font-awesome.min.css"
 	rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/resources/bootstrap-main1/vendor/devicons/css/devicons.min.css" rel="stylesheet" type="text/css">
-<link href="${pageContext.request.contextPath}/resources/bootstrap-main1/vendor/simple-line-icons/css/simple-line-icons.css"
+<link
+	href="${pageContext.request.contextPath}/resources/bootstrap-main1/vendor/devicons/css/devicons.min.css"
+	rel="stylesheet" type="text/css">
+<link
+	href="${pageContext.request.contextPath}/resources/bootstrap-main1/vendor/simple-line-icons/css/simple-line-icons.css"
 	rel="stylesheet" type="text/css">
 
 <!-- Custom styles for this template -->
-<link href="${pageContext.request.contextPath}/resources/bootstrap-main1/css/resume.min.css" rel="stylesheet" type="text/css">
+<link
+	href="${pageContext.request.contextPath}/resources/bootstrap-main1/css/resume.min.css"
+	rel="stylesheet" type="text/css">
 
 </head>
 
@@ -42,7 +59,8 @@
 		href="#page-top"> <span class="d-block d-lg-none">Yosep's
 			Blog</span> <span class="d-none d-lg-block"> <img
 			class="img-fluid img-profile rounded-circle mx-auto mb-2"
-			src="${pageContext.request.contextPath}/resources/bootstrap-main1/img/profile.GIF" alt="">
+			src="${pageContext.request.contextPath}/resources/bootstrap-main1/img/profile.GIF"
+			alt="">
 	</span>
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -80,10 +98,7 @@
 				서울특별시 · 구로구. 구로동 97-8 · (010) 2683-2450 · <a
 					href="mailto:enekelx1@naver.com">enekelx1@naver.com</a>
 			</div>
-			<p class="mb-5">I am experienced in leveraging agile frameworks
-				to provide a robust synopsis for high level overviews. Iterative
-				approaches to corporate strategy foster collaborative thinking to
-				further the overall value proposition.</p>
+			<p class="mb-5">BackEnd 개발자를 목표로 하고 있는 초보 개발자.</p>
 			<ul class="list-inline list-social-icons mb-0">
 				<li class="list-inline-item"><a href="#"> <span
 						class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i>
@@ -92,12 +107,7 @@
 				</a></li>
 				<li class="list-inline-item"><a href="#"> <span
 						class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-					</span>
-				</a></li>
-				<li class="list-inline-item"><a href="#"> <span
-						class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i>
-							<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
 					</span>
 				</a></li>
 				<li class="list-inline-item"><a href="#"> <span
@@ -116,60 +126,16 @@
 
 			<div class="resume-item d-flex flex-column flex-md-row mb-5">
 				<div class="resume-content mr-auto">
-					<h3 class="mb-0">Senior Web Developer</h3>
-					<div class="subheading mb-3">Intelitec Solutions</div>
-					<p>Bring to the table win-win survival strategies to ensure
-						proactive domination. At the end of the day, going forward, a new
-						normal that has evolved from generation X is on the runway heading
-						towards a streamlined cloud solution. User generated content in
-						real-time will have multiple touchpoints for offshoring.</p>
+					<h3 class="mb-0">Intern</h3>
+					<div class="subheading mb-3">(주)다우기술 서비스개발본부 시스템코어개발팀</div>
+					<p>
+						- Biz 뿌리오 서비스 Client 파트 운영 및 유지보수 담당. <br /> - Biz 뿌리오 관련 서버 모니터링
+						앱 프로토타입 개발 과제 수행
+					</p>
 				</div>
 				<div class="resume-date text-md-right">
-					<span class="text-primary">March 2013 - Present</span>
-				</div>
-			</div>
-
-			<div class="resume-item d-flex flex-column flex-md-row mb-5">
-				<div class="resume-content mr-auto">
-					<h3 class="mb-0">Web Developer</h3>
-					<div class="subheading mb-3">Intelitec Solutions</div>
-					<p>Capitalize on low hanging fruit to identify a ballpark value
-						added activity to beta test. Override the digital divide with
-						additional clickthroughs from DevOps. Nanotechnology immersion
-						along the information highway will close the loop on focusing
-						solely on the bottom line.</p>
-				</div>
-				<div class="resume-date text-md-right">
-					<span class="text-primary">December 2011 - March 2013</span>
-				</div>
-			</div>
-
-			<div class="resume-item d-flex flex-column flex-md-row mb-5">
-				<div class="resume-content mr-auto">
-					<h3 class="mb-0">Junior Web Designer</h3>
-					<div class="subheading mb-3">Shout! Media Productions</div>
-					<p>Podcasting operational change management inside of workflows
-						to establish a framework. Taking seamless key performance
-						indicators offline to maximise the long tail. Keeping your eye on
-						the ball while performing a deep dive on the start-up mentality to
-						derive convergence on cross-platform integration.</p>
-				</div>
-				<div class="resume-date text-md-right">
-					<span class="text-primary">July 2010 - December 2011</span>
-				</div>
-			</div>
-
-			<div class="resume-item d-flex flex-column flex-md-row">
-				<div class="resume-content mr-auto">
-					<h3 class="mb-0">Web Design Intern</h3>
-					<div class="subheading mb-3">Shout! Media Productions</div>
-					<p>Collaboratively administrate empowered markets via
-						plug-and-play networks. Dynamically procrastinate B2C users after
-						installed base benefits. Dramatically visualize customer directed
-						convergence without revolutionary ROI.</p>
-				</div>
-				<div class="resume-date text-md-right">
-					<span class="text-primary">September 2008 - June 2010</span>
+					<span class="text-primary">July 2017 - December 2017 (6
+						Month)</span>
 				</div>
 			</div>
 
@@ -184,24 +150,24 @@
 
 			<div class="resume-item d-flex flex-column flex-md-row mb-5">
 				<div class="resume-content mr-auto">
-					<h3 class="mb-0">University of Colorado Boulder</h3>
-					<div class="subheading mb-3">Bachelor of Science</div>
-					<div>Computer Science - Web Development Track</div>
-					<p>GPA: 3.23</p>
+					<h3 class="mb-0">명지대학교</h3>
+					<div class="subheading mb-3">공과대학</div>
+					<div>컴퓨터 공학과</div>
+					<p>평점: 3.72 (151학점 이수)</p>
 				</div>
 				<div class="resume-date text-md-right">
-					<span class="text-primary">August 2006 - May 2010</span>
+					<span class="text-primary">March 2012 - Feb 2018</span>
 				</div>
 			</div>
 
 			<div class="resume-item d-flex flex-column flex-md-row">
 				<div class="resume-content mr-auto">
-					<h3 class="mb-0">James Buchanan High School</h3>
-					<div class="subheading mb-3">Technology Magnet Program</div>
-					<p>GPA: 3.56</p>
+					<h3 class="mb-0">고잔고등학교</h3>
+					<div class="subheading mb-3">인문계열</div>
+					<p></p>
 				</div>
 				<div class="resume-date text-md-right">
-					<span class="text-primary">August 2002 - May 2006</span>
+					<span class="text-primary">March 2008 - Feb 2011</span>
 				</div>
 			</div>
 
@@ -215,28 +181,26 @@
 
 			<div class="subheading mb-3">Programming Languages &amp; Tools</div>
 			<ul class="list-inline list-icons">
-				<li class="list-inline-item"><i class="devicons devicons-html5"></i>
+
+				<li class="list-inline-item"><i
+					class="devicons devicons-android"></i></li>
+				<li class="list-inline-item"><i class="devicon-apple-original"></i></i>
 				</li>
-				<li class="list-inline-item"><i class="devicons devicons-css3"></i>
+				<li class="list-inline-item"><i class="devicon-c-plain"></i></li>
+				<li class="list-inline-item"><i class="devicons devicons-java"></i>
 				</li>
+				<li class="list-inline-item"><i
+					class="devicons devicons-nodejs"></i></li>
+				<li class="list-inline-item"><i class="devicons devicons-html5"></i></li>
 				<li class="list-inline-item"><i
 					class="devicons devicons-javascript"></i></li>
 				<li class="list-inline-item"><i
 					class="devicons devicons-jquery"></i></li>
-				<li class="list-inline-item"><i class="devicons devicons-sass"></i>
-				</li>
-				<li class="list-inline-item"><i class="devicons devicons-less"></i>
+				<li class="list-inline-item"><i class="devicon-oracle-original"></i></li>
+				<li class="list-inline-item"><i class="devicons devicons-mysql"></i>
 				</li>
 				<li class="list-inline-item"><i
-					class="devicons devicons-bootstrap"></i></li>
-				<li class="list-inline-item"><i
-					class="devicons devicons-wordpress"></i></li>
-				<li class="list-inline-item"><i class="devicons devicons-grunt"></i>
-				</li>
-				<li class="list-inline-item"><i class="devicons devicons-gulp"></i>
-				</li>
-				<li class="list-inline-item"><i class="devicons devicons-npm"></i>
-				</li>
+					class="devicon-sourcetree-plain"></i></li>
 			</ul>
 
 			<div class="subheading mb-3">Workflow</div>
@@ -256,15 +220,17 @@
 			id="interests">
 		<div class="my-auto">
 			<h2 class="mb-5">Interests</h2>
-			<p>Apart from being a web developer, I enjoy most of my time
-				being outdoors. In the winter, I am an avid skiier and novice ice
-				climber. During the warmer months here in Colorado, I enjoy mountain
-				biking, free climbing, and kayaking.</p>
-			<p class="mb-0">When forced indoors, I follow a number of sci-fi
-				and fantasy genre movies and television shows, I am an aspiring
-				chef, and I spend a large amount of my free time exploring the
-				latest technolgy advancements in the front-end web development
-				world.</p>
+			<p>
+				Spring Framework와 Node.js 프레임워크는 최근에 관심이 생겨 꾸준히 공부중이다.<br /> 현재 제대로
+				공부를 시작한지는 약 3개월정도 되었다.
+			</p>
+			<p class="mb-0">
+				Spring Framework의 공부를 위해 Spring 4.0(최범균 저)와 토비의 스프링 3.1(이일민 저) 두권을
+				병행하며 공부하고 있다. <br />우선 스프링 프레임워크를 주 공부 언어로 잡다보니, Node.js는 따로 책을 사지는
+				않았고, T아카데미(SK에서 무료로 제공하는 프로그래밍 인강 사이트)와 생활코딩의 인강 2개를 함께 학습하며 병행중이다.
+			</p>
+			<br />
+			<p>현재 이 블로그는 스프링 프레임워크를 이용하여 개발중인 홈페이지며, Node.js와 안드로이드를 이용하여,</p>
 		</div>
 		</section>
 
@@ -300,16 +266,16 @@
 	<!-- Bootstrap core JavaScript -->
 	<!--<script src="vendor/jquery/jquery.min.js"></script> -->
 	<!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-	<script src="<c:url value="/resources/bootstrap-main1/vendor/jquery/jquery.min.js" />">
-	<script src="<c:url value="/resources/bootstrap-main1/vendor/bootstrap/js/bootstrap.bundle.min.js" />">
+	<script src="<c:url value="/resources/bootstrap-main1/vendor/jquery/jquery.min.js" />"></script>
+	<script src="<c:url value="/resources/bootstrap-main1/vendor/bootstrap/js/bootstrap.bundle.min.js" />"></script>
+
 
     <!-- Plugin JavaScript -->
-    <script src="<c:url value="/resources/bootstrap-main1/vendor/jquery-easing/jquery.easing.min.js" />">
-    <!-- <script src="vendor/jquery-easing/jquery.easing.min.js" /> -->
+    <script src="<c:url value="/resources/bootstrap-main1/vendor/jquery-easing/jquery.easing.min.js" />"></script>
 
 	<!-- Custom scripts for this template -->
 	<!-- <script src="js/resume.min.js" /> -->
-	<script src="<c:url value="/resources/bootstrap-main1/js/resume.min.js" />">
+	<script src="<c:url value="/resources/bootstrap-main1/js/resume.min.js" />"></script>
 
 </body>
 
