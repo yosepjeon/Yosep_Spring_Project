@@ -264,18 +264,22 @@
 	</div>
 
 	<!-- Bootstrap core JavaScript -->
-	<!--<script src="vendor/jquery/jquery.min.js"></script> -->
-	<!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-	<script src="<c:url value="/resources/bootstrap-main1/vendor/jquery/jquery.min.js" />"></script>
-	<script src="<c:url value="/resources/bootstrap-main1/vendor/bootstrap/js/bootstrap.bundle.min.js" />"></script>
+	<script src="/main/resources/bootstrap-main1/vendor/jquery/jquery.min.js"></script>
+	<script src="/main/resources/bootstrap-main1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	
+	<!-- <script src="<c:url value="/resources/bootstrap-main1/vendor/jquery/jquery.min.js" />"></script> -->
+	<!-- <script src="<c:url value="/resources/bootstrap-main1/vendor/bootstrap/js/bootstrap.bundle.min.js" />"></script> -->
 
 
-    <!-- Plugin JavaScript -->
-    <script src="<c:url value="/resources/bootstrap-main1/vendor/jquery-easing/jquery.easing.min.js" />"></script>
+
+	<!-- Plugin JavaScript -->
+	<!-- <script src="<c:url value="/resources/bootstrap-main1/vendor/jquery-easing/jquery.easing.min.js" />"></script> -->
+	<script src="/main/resources/bootstrap-main1/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 	<!-- Custom scripts for this template -->
-	<!-- <script src="js/resume.min.js" /> -->
-	<script src="<c:url value="/resources/bootstrap-main1/js/resume.min.js" />"></script>
+	<script src="/main/resources/bootstrap-main1/js/resume.min.js" ></script>
+	<!-- <script src="<c:url value="/resources/bootstrap-main1/js/resume.min.js" />"></script> -->
 
 </body>
 

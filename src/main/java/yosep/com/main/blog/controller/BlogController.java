@@ -25,4 +25,9 @@ public class BlogController {
 	public String blog_login(Model model) {
 		return "/blog/login";
 	}
+	
+	@RequestMapping("/main/blog/signupOk")
+	public String blog_signupOk(Model model) {
+		return "";
+	}
 }
