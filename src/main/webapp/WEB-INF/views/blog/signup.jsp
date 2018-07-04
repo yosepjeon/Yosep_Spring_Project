@@ -1,81 +1,195 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<head>
+<meta charset="utf-8" />
+<link rel="apple-touch-icon" sizes="76x76"
+	href="${pageContext.request.contextPath}/resources/bootstrap-firstpage/assets/img/apple-icon.png">
+<link rel="icon" type="image/png"
+	href="${pageContext.request.contextPath}/resources/bootstrap-firstpage/assets/img/favicon.png">
 
-  <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>Get Shit Done Kit by Creative Tim</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<meta
+	content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+	name='viewport' />
+<meta name="viewport" content="width=device-width" />
 
-    <title>Yosep's blog entry</title>
+<link
+	href="${pageContext.request.contextPath}/resources/bootstrap-firstpage/bootstrap3/css/bootstrap.css"
+	rel="stylesheet" />
+<link
+	href="${pageContext.request.contextPath}/resources/bootstrap-firstpage/bootstrap3/css/font-awesome.css"
+	rel="stylesheet" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="${pageContext.request.contextPath}/resources/bootstrap-firstpage/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link
+	href="${pageContext.request.contextPath}/resources/bootstrap-firstpage/assets/css/gsdk.css"
+	rel="stylesheet" />
+<link
+	href="${pageContext.request.contextPath}/resources/bootstrap-firstpage/assets/css/demo.css"
+	rel="stylesheet" />
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+<!--     Font Awesome     -->
+<link
+	href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+	rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Grand+Hotel'
+	rel='stylesheet' type='text/css'>
 
-    <!-- Custom styles for this template -->
-    <link href="${pageContext.request.contextPath}/resources/bootstrap-firstpage/css/one-page-wonder.min.css" rel="stylesheet">
+</head>
 
-  </head>
+<body>
+	<div id="navbar-full">
+		<div id="navbar">
+			<!--    
+        navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
+        -->
+			<nav
+				class="navbar navbar-ct-blue navbar-transparent navbar-fixed-top"
+				role="navigation">
+			<div class="alert alert-success hidden">
+				<div class="container">
+					<b>Lorem ipsum</b> dolor sit amet, consectetuer adipiscing elit,
+					sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+					aliquam erat volutpat.
+				</div>
+			</div>
 
-  <body>
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#gsdk">YOSEP</a>
+				</div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="/main/blog/first">Yosep</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/main/blog/login">Log In</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse"
+					id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#gsdk">Link</a></li>
+						<li class="dropdown"><a href="#gsdk" class="dropdown-toggle"
+							data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#gsdk">Action</a></li>
+								<li><a href="#gsdk">Another action</a></li>
+								<li><a href="#gsdk">Something</a></li>
+								<li><a href="#gsdk">Another action</a></li>
+								<li><a href="#gsdk">Something</a></li>
+								<li class="divider"></li>
+								<li><a href="#gsdk">Separated link</a></li>
+							</ul></li>
+						<li><a href="javascript:void(0);" data-toggle="search"
+							class="hidden-xs"><i class="fa fa-search"></i></a></li>
+					</ul>
+					<form class="navbar-form navbar-left navbar-search-form"
+						role="search">
+						<div class="form-group">
+							<input type="text" value="" class="form-control"
+								placeholder="Search...">
+						</div>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li><button href="#gsdk" class="btn btn-round btn-default">Sign
+								in</button></li>
+					</ul>
 
-    <header class="masthead text-center text-white">
-      <div class="masthead-content">
-        <div class="container">
-        	<form action="/main/blog/signupOk">
-        		<input type="text" name="id" size="20" placeholder="아이디를 입력"><br />
-        		<input type="password" name="pw" size="20" placeholder="비밀번호를 입력"><br />
-        		<input type="password" name="pw_check" size="20" placeholder="비밀번호 확인"><br />
-        		<input type="text" name="name" size="20" placeholder="이름 입력"><br />
-        		<input type="text" name="mail" size="20" placeholder="이메일 입력"><br />
-        		<input type="text" name="address" size="50" placeholder="주소 입력"><br />
-        		<input type="button" value="회원가입" onclick="infoConfirm()">&nbsp;&nbsp;&nbsp;<input type="reset" value="취소" onclick="javascript:window.location='start_blog.jsp'">
-        	</form>
-          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
-        </div>
-      </div>
-      <div class="bg-circle-1 bg-circle"></div>
-      <div class="bg-circle-2 bg-circle"></div>
-      <div class="bg-circle-3 bg-circle"></div>
-      <div class="bg-circle-4 bg-circle"></div>
-    </header>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid --> </nav>
+			<div class="blurred-container">
+				<div class="img-src"
+					style="background-image: url('${pageContext.request.contextPath}/resources/bootstrap-firstpage/assets/img/home-bg.jpg')"></div>
+				<div class='blurred-container'>
+					<div class="motto">
+						<form action="/main/blog/signupOk" method="post">
+							<div class="row">
+								<div class="col-sm-10">
+									<div class="form-group">
+										<input type="text" value="" placeholder="아이디 입력" name="id"
+											size="20" class="form-control" maxlength="20"/>
+									</div>
+									<div class="form-group">
+										<input type="text" value="" placeholder="이름 입력" name="name"
+											size="20" class="form-control" maxlength="20"/>
+									</div>
+									<div class="form-group">
+										<input type="password" value="" placeholder="비밀번호 입력"
+											name="password" size="20" class="form-control" maxlength="20"/>
+									</div>
+									<div class="form-group">
+										<input type="password" value="" placeholder="비밀번호 확인"
+											name="password_check" size="20" class="form-control" maxlength="20"/>
+									</div>
+									<div class="col-sm-3">
+										<label class="radio"> <input type="radio"
+											name="gender" data-toggle="radio" id="male" value="male">
+											<i></i>남자
+										</label> <label class="radio"> <input type="radio"
+											name="gender" data-toggle="radio" id="female" value="female">
+											<i></i>여자
+										</label>
+									</div>
+									<div class="form-group">
+										<input type="text" value="" placeholder="-없이 번호를 입력하세요."
+											name="phone" size="20" class="form-control" maxlength="20"/>
+									</div>
+									<div class="form-group">
+										<input type="text" value="" placeholder="email 입력"
+											name="email" size="20" class="form-control" maxlength="50"/>
+									</div>
+								</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  end navbar -->
 
-    <!-- Footer -->
-    <footer class="py-5 bg-black">
-      <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+	</div>
+	<!-- end menu-dropdown -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="<c:url value="/resources/bootstrap-firstpage/vendor/jquery/jquery.min.js" />"></script>
-    <script src="<c:url value="/resources/bootstrap-firstpage/vendor/bootstrap/js/bootstrap.bundle.min.js" />"></script>
+	<!-- end main -->
 
-  </body>
+</body>
+<!-- 
+<script src="<c:url value="resources/bootstrap-firstpage/jquery/jquery-1.10.2.js" type="text/javascript" />"></script>
+<script src="<c:url value="resources/bootstrap-firstpage/assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript" />"></script>
+
+<script src="<c:url value="resources/bootstrap-firstpage/bootstrap3/js/bootstrap.js" type="text/javascript" />"></script>
+<script src="<c:url value="resources/bootstrap-firstpage/assets/js/gsdk-checkbox.js" />"></script>
+<script src="<c:url value="resources/bootstrap-firstpage/assets/js/gsdk-radio.js" />"></script>
+<script src="<c:url value="resources/bootstrap-firstpage/assets/js/gsdk-bootstrapswitch.js" />"></script>
+<script src="<c:url value="resources/bootstrap-firstpage/assets/js/get-shit-done.js" />"></script>
+<script src="<c:url value="resources/bootstrap-firstpage/assets/js/custom.js" />"></script>
+-->
+
+<script
+	src="/main/resources/bootstrap-firstpage/jquery/jquery-1.10.2.js"
+	type="text/javascript"></script>
+<script
+	src="/main/resources/bootstrap-firstpage/assets/js/jquery-ui-1.10.4.custom.min.js"
+	type="text/javascript"></script>
+
+<script
+	src="/main/resources/bootstrap-firstpage/bootstrap3/js/bootstrap.js"
+	type="text/javascript"></script>
+<script
+	src="/main/resources/bootstrap-firstpage/assets/js/gsdk-checkbox.js"></script>
+<script
+	src="/main/resources/bootstrap-firstpage/assets/js/gsdk-radio.js"></script>
+<script
+	src="/main/resources/bootstrap-firstpage/assets/js/gsdk-bootstrapswitch.js"></script>
+<script
+	src="/main/resources/bootstrap-firstpage/assets/js/get-shit-done.js"></script>
+
+<script src="/main/resources/bootstrap-firstpage/assets/js/custom.js"></script>
 
 </html>
