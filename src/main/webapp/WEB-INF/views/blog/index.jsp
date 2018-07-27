@@ -83,6 +83,8 @@
 				href="#interests">Interests</a></li>
 			<li class="nav-item"><a class="nav-link js-scroll-trigger"
 				href="#awards">Awards</a></li>
+			<li class="nav-item"><a class="nav-link js-scroll-trigger"
+				href="/main/blog/first">Home</a></li>
 		</ul>
 	</div>
 	</nav>
@@ -98,7 +100,7 @@
 				서울특별시 · 구로구. 구로동 97-8 · (010) 2683-2450 · <a
 					href="mailto:enekelx1@naver.com">enekelx1@naver.com</a>
 			</div>
-			<p class="mb-5">BackEnd 개발자를 목표로 하고 있는 초보 개발자.</p>
+			<p class="mb-5">반갑습니다. 프로그래밍에 관심많은 초보개발자입니다.</p>
 			<ul class="list-inline list-social-icons mb-0">
 				<li class="list-inline-item"><a href="#"> <span
 						class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i>
@@ -192,10 +194,6 @@
 				<li class="list-inline-item"><i
 					class="devicons devicons-nodejs"></i></li>
 				<li class="list-inline-item"><i class="devicons devicons-html5"></i></li>
-				<li class="list-inline-item"><i
-					class="devicons devicons-javascript"></i></li>
-				<li class="list-inline-item"><i
-					class="devicons devicons-jquery"></i></li>
 				<li class="list-inline-item"><i class="devicon-oracle-original"></i></li>
 				<li class="list-inline-item"><i class="devicons devicons-mysql"></i>
 				</li>
@@ -205,13 +203,13 @@
 
 			<div class="subheading mb-3">Workflow</div>
 			<ul class="fa-ul mb-0">
-				<li><i class="fa-li fa fa-check"></i> Mobile-First, Responsive
-					Design</li>
-				<li><i class="fa-li fa fa-check"></i> Cross Browser Testing
-					&amp; Debugging</li>
-				<li><i class="fa-li fa fa-check"></i> Cross Functional Teams</li>
-				<li><i class="fa-li fa fa-check"></i> Agile Development &amp;
-					Scrum</li>
+				<li><i class="fa-li fa fa-check"></i> Spring 개인 프로젝트의 일환으로 Blog
+					개발</li>
+				<li><i class="fa-li fa fa-check"></i> Android 카카오톡 모방 개인 메신저
+					어플리케이션 개발</li>
+				<li><i class="fa-li fa fa-check"></i> Java를 이용한 온라인 산성비게임 개발</li>
+				<li><i class="fa-li fa fa-check"></i> Daou기술 인턴기간동안 과제로서
+					Android 서버모니터링 어플리케이션 개발</li>
 			</ul>
 		</div>
 		</section>
@@ -221,16 +219,17 @@
 		<div class="my-auto">
 			<h2 class="mb-5">Interests</h2>
 			<p>
-				Spring Framework와 Node.js 프레임워크는 최근에 관심이 생겨 꾸준히 공부중이다.<br /> 현재 제대로
-				공부를 시작한지는 약 3개월정도 되었다.
+				Spring Framework에 관심이 생겨 현재 공부중이다.<br /> Android 학교생활동안 했던 공부를
+				심화학습중에 있다.
 			</p>
 			<p class="mb-0">
 				Spring Framework의 공부를 위해 Spring 4.0(최범균 저)와 토비의 스프링 3.1(이일민 저) 두권을
-				병행하며 공부하고 있다. <br />우선 스프링 프레임워크를 주 공부 언어로 잡다보니, Node.js는 따로 책을 사지는
-				않았고, T아카데미(SK에서 무료로 제공하는 프로그래밍 인강 사이트)와 생활코딩의 인강 2개를 함께 학습하며 병행중이다.
+				병행하며 공부하고 있다. <br />우선 스프링 프레임워크를 주 공부 언어로 잡다보니, 안드로이드는 개인 프로젝트를
+				하면서 필요한 부분을 Googling 및 API문서를 참고하여 학습중이다.
 			</p>
 			<br />
-			<p>현재 이 블로그는 스프링 프레임워크를 이용하여 개발중인 홈페이지며, Node.js와 안드로이드를 이용하여,</p>
+			<p>현재 이 블로그는 SpringFramework를 이용하여 개발중이며, 향후 서울시 기상,미세먼지등의 공개
+				데이터를 이용하여 홈페이지에 적용할 예정이다.</p>
 		</div>
 		</section>
 
@@ -239,24 +238,16 @@
 		<div class="my-auto">
 			<h2 class="mb-5">Awards &amp; Certifications</h2>
 			<ul class="fa-ul mb-0">
-				<li><i class="fa-li fa fa-trophy text-warning"></i> Google
-					Analytics Certified Developer</li>
-				<li><i class="fa-li fa fa-trophy text-warning"></i> Mobile Web
-					Specialist - Google Certification</li>
-				<li><i class="fa-li fa fa-trophy text-warning"></i> 1<sup>st</sup>
+				<li><i class="fa-li fa fa-trophy text-warning"></i> 명지대학교
+					컴퓨터공학과 주관 창업경진대회 최우수상 수상</li>
+				<li><i class="fa-li fa fa-trophy text-warning"></i>
+					과내 스터디 동아리 AO 부원 </li>
+				<li><i class="fa-li fa fa-trophy text-warning"></i>
+					다우기술 서비스개발본부 시스템코어개발팀 인턴
+				</li>
+				<!-- <li><i class="fa-li fa fa-trophy text-warning"></i> 1<sup>st</sup>
 					Place - University of Colorado Boulder - Emerging Tech Competition
-					2009</li>
-				<li><i class="fa-li fa fa-trophy text-warning"></i> 1<sup>st</sup>
-					Place - University of Colorado Boulder - Adobe Creative Jam 2008
-					(UI Design Category)</li>
-				<li><i class="fa-li fa fa-trophy text-warning"></i> 2<sup>nd</sup>
-					Place - University of Colorado Boulder - Emerging Tech Competition
-					2008</li>
-				<li>
-				<li><i class="fa-li fa fa-trophy text-warning"></i> 1<sup>st</sup>
-					Place - James Buchanan High School - Hackathon 2006</li>
-				<li><i class="fa-li fa fa-trophy text-warning"></i> 3<sup>rd</sup>
-					Place - James Buchanan High School - Hackathon 2005</li>
+					2009</li> -->
 			</ul>
 		</div>
 		</section>
@@ -264,10 +255,12 @@
 	</div>
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="/main/resources/bootstrap-main1/vendor/jquery/jquery.min.js"></script>
-	<script src="/main/resources/bootstrap-main1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script
+		src="/main/resources/bootstrap-main1/vendor/jquery/jquery.min.js"></script>
+	<script
+		src="/main/resources/bootstrap-main1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-	
+
 	<!-- <script src="<c:url value="/resources/bootstrap-main1/vendor/jquery/jquery.min.js" />"></script> -->
 	<!-- <script src="<c:url value="/resources/bootstrap-main1/vendor/bootstrap/js/bootstrap.bundle.min.js" />"></script> -->
 
@@ -275,10 +268,11 @@
 
 	<!-- Plugin JavaScript -->
 	<!-- <script src="<c:url value="/resources/bootstrap-main1/vendor/jquery-easing/jquery.easing.min.js" />"></script> -->
-	<script src="/main/resources/bootstrap-main1/vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script
+		src="/main/resources/bootstrap-main1/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 	<!-- Custom scripts for this template -->
-	<script src="/main/resources/bootstrap-main1/js/resume.min.js" ></script>
+	<script src="/main/resources/bootstrap-main1/js/resume.min.js"></script>
 	<!-- <script src="<c:url value="/resources/bootstrap-main1/js/resume.min.js" />"></script> -->
 
 </body>

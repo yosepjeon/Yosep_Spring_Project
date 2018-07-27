@@ -57,18 +57,18 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#gsdk">GSDKit</a>
+					<a class="navbar-brand" href="/main/blog/first">요깨비</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse"
 					id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#gsdk">Link</a></li>
+						<li class="active"><a href="/main/blog">소개</a></li>
 						<li class="dropdown"><a href="#gsdk" class="dropdown-toggle"
-							data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+							data-toggle="dropdown">목록 <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="#gsdk">Action</a></li>
+								<li><a href="/main/board/list">게시판</a></li>
 								<li><a href="#gsdk">Another action</a></li>
 								<li><a href="#gsdk">Something</a></li>
 								<li><a href="#gsdk">Another action</a></li>
@@ -87,10 +87,9 @@
 						</div>
 					</form>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#gsdk">Register</a></li>
+						<li><a href="/main/blog/signup">회원가입</a></li>
 
-						<li><button href="#gsdk" class="btn btn-round btn-default">Sign
-								in</button></li>
+						<li><button onclick="location.href='/main/blog/login'" class="btn btn-round btn-default">로그인</button></li>
 					</ul>
 
 				</div>

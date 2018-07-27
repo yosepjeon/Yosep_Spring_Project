@@ -1948,19 +1948,19 @@ output {
 }
 
 .form-control:-moz-placeholder {
-  color: #999999;
+  color: #444444;
 }
 
 .form-control::-moz-placeholder {
-  color: #999999;
+  color: #444444;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #999999;
+  color: #444444;
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #999999;
+  color: #444444;
 }
 
 .form-control[disabled],

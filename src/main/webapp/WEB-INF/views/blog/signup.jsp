@@ -66,7 +66,7 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#gsdk">YOSEP</a>
+					<a class="navbar-brand" href="/main/blog/first">요깨비</a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -111,9 +111,9 @@
 					<div class="motto">
 						<form action="/main/blog/signupOk" method="post">
 							<div class="row">
-								<div class="col-sm-10">
+								<div class="row-sm-10">
 									<div class="form-group">
-										<input type="text" value="" placeholder="아이디 입력" name="id"
+										 <input type="text" value="" placeholder="아이디 입력" name="id"
 											size="20" class="form-control" maxlength="20"/>
 									</div>
 									<div class="form-group">
@@ -128,13 +128,13 @@
 										<input type="password" value="" placeholder="비밀번호 확인"
 											name="password_check" size="20" class="form-control" maxlength="20"/>
 									</div>
-									<div class="col-sm-3">
+									<div class="row-sm-2">
 										<label class="radio"> <input type="radio"
 											name="gender" data-toggle="radio" id="male" value="male">
-											<i></i>남자
+											남자
 										</label> <label class="radio"> <input type="radio"
 											name="gender" data-toggle="radio" id="female" value="female">
-											<i></i>여자
+											여자
 										</label>
 									</div>
 									<div class="form-group">
